@@ -130,6 +130,8 @@ customer-churn-predictor/
 ├── docker-compose.yml
 └── .gitignore
 
+```
+
 ---
 
 ## 📦 Installation & Setup
