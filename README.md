@@ -87,6 +87,7 @@ Contains 7,043 customer records with demographics, account info, and services, l
 
 ## 📁 Project Structure (Initial)
 
+```
 customer-churn-predictor/
 │
 ├── backend/
@@ -128,6 +129,7 @@ customer-churn-predictor/
 ├── README.md
 ├── docker-compose.yml
 └── .gitignore
+```
 
 ---
 
