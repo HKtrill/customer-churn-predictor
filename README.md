@@ -87,49 +87,48 @@ Contains 7,043 customer records with demographics, account info, and services, l
 
 ## 📁 Project Structure (Initial)
 
-```
+```plaintext
 customer-churn-predictor/
 │
 ├── backend/
-│ ├── app/
-│ │ ├── main.py
-│ │ ├── api/
-│ │ │ ├── routes/
-│ │ │ │ ├── upload.py
-│ │ │ │ ├── predict.py
-│ │ │ │ └── analytics.py
-│ │ ├── core/
-│ │ ├── models/
-│ │ ├── preprocessing/
-│ │ ├── tests/
-│ │ └── requirements.txt
-│ └── Dockerfile
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── api/
+│   │   │   ├── routes/
+│   │   │   │   ├── upload.py
+│   │   │   │   ├── predict.py
+│   │   │   │   └── analytics.py
+│   │   ├── core/
+│   │   ├── models/
+│   │   ├── preprocessing/
+│   │   ├── tests/
+│   │   └── requirements.txt
+│   └── Dockerfile
 │
 ├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── FileUpload.tsx
-│ │ │ ├── PredictionTable.tsx
-│ │ │ └── Charts.tsx
-│ │ ├── pages/
-│ │ ├── services/
-│ │ └── App.tsx
-│ ├── public/
-│ ├── package.json
-│ └── Dockerfile
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── FileUpload.tsx
+│   │   │   ├── PredictionTable.tsx
+│   │   │   └── Charts.tsx
+│   │   ├── pages/
+│   │   ├── services/
+│   │   └── App.tsx
+│   ├── public/
+│   ├── package.json
+│   └── Dockerfile
 │
 ├── data/
-│ ├── raw/
-│ ├── processed/
-│ └── README.md
+│   ├── raw/
+│   ├── processed/
+│   └── README.md
 │
 ├── notebooks/
-│ └── model_dev.ipynb
+│   └── model_dev.ipynb
 │
 ├── README.md
 ├── docker-compose.yml
 └── .gitignore
-```
 
 ---
 
